@@ -12,12 +12,12 @@ It is highly unlikely that one framework will be able to address every single cr
 4. Versioned Documentation- Should be able to support multiple, separate versions of our documentation.
 5. Syntax Highlighting- Should support code block and even individual line highlighting.
 6. Visual Appeal- For better user experience, a beautiful theme would be best.
-8. Wide community- Huge following demonstrated by number of forks and stars on GitHub. Ensures longevity of support for the framework.
-9. Following/popularity with the CNCF as well as the Tremor team and Community.
-10. Lower Learning Curve- To minimise barriers to entry; enable community contribute with ease.
-11. Free and Open-source- Also ensures longevity of  support for the framework.
-12. Search Bar- Should support search integration.
-13. Dark/Light Mode Integration.
+7. Wide community- Huge following demonstrated by number of forks and stars on GitHub. Ensures longevity of support for the framework.
+8. Following/popularity with the CNCF as well as the Tremor team and Community.
+9. Lower Learning Curve- To minimise barriers to entry; enable community contribute with ease.
+10. Free and Open-source- Also ensures longevity of  support for the framework.
+11. Search Bar- Should support search integration.
+12. Dark/Light Mode Integration.
 
 ## Selected Candidates
 
@@ -91,7 +91,7 @@ A few negative aspects:
 + Easy customisation- lets you modify your site to look however you want by customising your theme, installing plugins or even modifying Markdown's behaviour with [Markdown extensions](https://www.mkdocs.org/user-guide/configuration/#markdown_extensions).
 + [Plugin](https://www.mkdocs.org/user-guide/configuration/#plugins) support.
 + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) is a beautiful theme.
-+ [Relatively large community](https://github.com/mkdocs/mkdocs)- 12.5K stars, 1.8 forks on GitHub.
++ [Average community following](https://github.com/mkdocs/mkdocs)- 12.5K stars, 1.8 forks on GitHub.
 + Free & open-source.
 
 A few negative aspects we have encountered: 
@@ -133,6 +133,7 @@ In addition to a single line, you can also specify multiple single lines, ranges
 + Plugin support- Powerful Plugin API, Blog Plugin, Search Plugin, PWA Plugin, Google Analytics Plugin.
 + Multi-language support (internationalisation)- the default theme has built-in i18n support.
 + Free & open-source.
++ [Relatively wide community](https://github.com/vuejs/vuepress)- 19.2K stars, 4.1K forks on Github.
 
 Negative aspects:
 
@@ -176,13 +177,13 @@ Relevant features to highlight:
 + Search bar.
 + Blog support.
 + Free & open-source- in fact, there are dozens of extensions contributed by users, most of them installable from PyPI.
-Multiple themes- some of which are beautiful e.g. the [Read the Docs](https://sphinx-themes.org/sample-sites/sphinx-rtd-theme/), [Material](https://sphinx-themes.org/sample-sites/sphinx-material/) and [PDJ](https://sphinx-themes.org/sample-sites/sphinx-pdj-theme/) themes.
++ Multiple themes- some of which are beautiful e.g. the [Read the Docs](https://sphinx-themes.org/sample-sites/sphinx-rtd-theme/), [Material](https://sphinx-themes.org/sample-sites/sphinx-material/) and [PDJ](https://sphinx-themes.org/sample-sites/sphinx-pdj-theme/) themes.
 
 A number of negative aspects that stood out:
 
 * Steep learning curve- using reStructuredText, which is not as simple as Markdown to master, as its default markup language would present a barrier to entry for contributors of an open-source project such as Tremor.
 * Default theme design not very visually appealling.
-* Not very popular: quite a [small community](https://github.com/sphinx-doc/sphinx)- 4K stars, 1.5K forks.
+* Not very popular: quite a [small community](https://github.com/sphinx-doc/sphinx)- 4K stars, 1.5K forks on GitHub.
 
 7. ### Zola
 
@@ -201,25 +202,32 @@ A number of negative aspects that stood out:
 
 Negative aspects:
 
+* [Very small community](https://github.com/getzola/zola) following- 7.2K stars, 530 forks on GitHub- support for it in the long run is not guaranteed; smaller forums.
 * The default design isn't particularly visually appealing, athough there are beautiful themes to choose from.
 
 ## Final Tally
 
 
-| Criteria            | Hugo        | Docusaurus | MkDocs | VuePress | Gatsby | Zola  | Sphinx |
-| :-------:           |:-----------:|:---------: |
-| Markdown            |             |            |
-| Syntax highlighting |             |            |
-| Versioning          |             |            |
+| Criteria                | Hugo        | Docusaurus  | MkDocs  | VuePress | Gatsby | Sphinx |  Zola  |
+| :-------:               |:----------: | :------:    |:-------:| :------: |:-----: | :------|:-------|
+| Markdown                |  1          |  1          |1        | 1        |1       | 1/2    | 1      |
+| Syntax Highlighting     |   1         |   1         | 0       |    1     | 1      | 1      | 1      |
+| Versioning              |   0         |    1        |  0      |     1    |  1     | 1      | 0      |
+| Focus on Documentation  |  1/2        |     1       |   1     |      1   |   0    | 1      | 1      |        
+| Breadcrumbs             |     0       |      0      |    0    |       0  |  0     | 0      | 1      |
+| Visual Appeal           |      1      |       1     |   1/2   |     1    |   1    | 1/2    | 1/2    |
+| Dark/Light Mode         |       0     |        1    |    0    |      0   |    0   | 0      | 0      |
+| Search Bar              |        1    |         1   |     1   |       1  |     1  | 1      | 1      |  
+| Wide Community          |         1   |          1  |    1/2  |      1/2 | 1      | 0      | 0      |
+| Free & Open-source      |          1  |           1 |   1     |    1     |  1     | 1      | 1      |
+| Low Learning Curve      |           0 |            1|    0    |     0    |   0    | 0      | 1      |
+| Popularity with CNCF    |            1|            0|     0   |      0   |    0   |0       | 0      |
+| TOTAL                   |   **7.5**   |    **10**   |  **5**  |  **7.5** |  **7** | **6**  | **7.5**|
 
-
-
-
-
-The defense rests. 
-
+The defence rests. 
 
 ## Verdict
 
-After carefully analysing the frameworks we considered, weighing their pros and cons with respect to our project, we have a clear winner: DOCUSAURUS! 
-Ergo, we shall be using Docusaurus to implement the web redesign project for Tremor.
+After carefully analysing the frameworks we considered, weighing their pros and cons with respect to our project's objectives, we have a clear winner: DOCUSAURUS! Yay! 
+
+We shall, therefore, be using Docusaurus to implement the web redesign project for Tremor.
