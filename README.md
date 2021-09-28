@@ -64,7 +64,7 @@ A few negative aspects:
 + Sensitive to open-source project needs- Docusaurus provides features that many open-source websites need e.g. blog support, search and versioning.
 + Supports Markdown.
 + Supports documentation versioning- enables you to keep documentation in sync with project releases, and support users on all versions of your project.
-+ Enables syntax highlighting that is customable- Code blocks within documentation are super-powered; by using the matching language meta string for your code blocks, you allow Docusaurus to pick up syntax highlighting automatically, powered by [Prism React Renderer](https://github.com/FormidableLabs/prism-react-renderer).
++ Enables syntax highlighting that is customisable- Code blocks within documentation are super-powered; by using the matching language meta string for your code blocks, you allow Docusaurus to pick up syntax highlighting automatically, powered by [Prism React Renderer](https://github.com/FormidableLabs/prism-react-renderer).
 + Visual appeal- Beautiful theme.
 + Easy navigation.
 + Blog support.
