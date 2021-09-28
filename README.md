@@ -159,7 +159,7 @@ You can find set-up and installation instructions on this [test site repository]
 
 Some observed negative aspects:
 
-* High learning curve- Gatsby is packed with a myriad of features, capabilities and plugins, which, naturally, comes at a cost of a higher learning curve. It also leverages GraphQL (not necessarily, though), whichmay present a barrier to entry for contributors not versed with the tool.
+* High learning curve- Gatsby is packed with a myriad of features, capabilities and plugins, which, naturally, comes at a cost of a higher learning curve. It also leverages GraphQL (not necessarily, though), which may present a barrier to entry for contributors not versed with the tool.
 * Not focused on documentation- suitable for building different types of dynamic wesites, from e-commerce to marketing, to documentation sites).
 
 6. ### Sphinx
@@ -193,7 +193,7 @@ A number of negative aspects that stood out:
 + No dependencies- Zola comes as a single executable with Sass compilation, syntax highlighting, table of contents and many other features that traditionally require setting up a dev environment or adding some JavaScript libraries to your site. 
 + Augmented Markdown- Zola comes with [shortcodes](https://www.getzola.org/documentation/content/shortcodes/) and [internal links](https://www.getzola.org/documentation/content/linking/) to make it easier to write your content. 
 + Comes with breadcrumbs- enables easy navigation.
-+ Syntax highligted code samples.
++ Syntax highlighted code samples.
 + Blog support.
 + Search bar.
 + Ease of use (lower learning curve)- From the CLI to the template engine, everything is designed to be intuitive.
@@ -203,7 +203,7 @@ A number of negative aspects that stood out:
 Negative aspects:
 
 * [Very small community](https://github.com/getzola/zola) following- 7.2K stars, 530 forks on GitHub- support for it in the long run is not guaranteed; smaller forums.
-* The default design isn't particularly visually appealing, athough there are beautiful themes to choose from.
+* The default design isn't particularly visually appealing, although there are beautiful themes to choose from.
 
 ## Final Tally
 
