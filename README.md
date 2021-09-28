@@ -144,7 +144,7 @@ You can find set-up and installation instructions on this [test site repository]
 
 5. ### Gatsby
 
-[Gatsby](https://www.gatsbyjs.com/) is a dynamic site generator that provides development teams an open-source frontend framework for creating dynamic, optimized websites and a cloud platform. for delivering them on a blazing fast edge network. It's a React-based framework that enables building of fast, secure, performant, scalable and accesible websites of different kinds (from marketing sites, to eCommerce stores, to documentation), which are then hosted on [Gatsby Cloud](https://www.gatsbyjs.com/products/cloud/).
+[Gatsby](https://www.gatsbyjs.com/) is a dynamic site generator that provides development teams an open-source frontend framework for creating dynamic, optimized websites and a cloud platform. for delivering them on a blazing fast edge network. It's a React-based framework that enables building of fast, secure, performant, scalable and accessible websites of different kinds (from marketing sites, to eCommerce stores, to documentation), which are then hosted on [Gatsby Cloud](https://www.gatsbyjs.com/products/cloud/).
 
 + Supports versioned documentation.
 + Supports syntax highlighting.
