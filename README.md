@@ -153,7 +153,7 @@ You can find set-up and installation instructions on this [test site repository]
 + Free & open-source.
 + Can unify multiple content forms and data from different sources while maintaining consistency- Gatsby has an innovative data layer built on GraphQL that allows developers to easily combine data from different sources and render them alongside each other. You can add content to your site, from a Shopify store, a WordPress blog, and some JSON from a payment processor all in a consistent manner.
 + Unparalleled speed and responsiveness- combines static-site generation and intelligent page rendering to selectively preload only the content that matters - give you a blazing fast website that feels incredibly smooth.
-+ [Docz](https://github.com/doczjs/docz) theme for building documentation is beautiful and easily configurable and customisable, and fully pluggable.
++ [Docz](https://github.com/doczjs/docz) theme for building documentation is beautiful and easily configurable and customisable, and fully plugable.
 + [Huge community](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/)- 50.9K stars, 9.8 forks.
 + Screenshots enabled in documentation.
 
