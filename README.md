@@ -31,7 +31,7 @@ After a lot of research, with the above considerations in mind, we settled on a 
 + Sphinx
 + Zola
 
-You can find the tests (and instructions on how to run these frameworks) on a [different repository](). Now, let's take a look at each framework and its properties to find out if it satisfies our criteria.
+You can find the tests (and instructions on how to run these frameworks) on a [different repository](https://github.com/skoech/vuepress-test-website). Now, let's take a look at each framework and its properties to find out if it satisfies our criteria.
 
 1. ### Hugo
 
